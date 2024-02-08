@@ -1,0 +1,6 @@
+v = c(21,23,24)
+print("Original vector:")
+print(v)
+v = c(v[1],22,v[2:length(v)])
+print("Vector after inserting element at second position:")
+print(v)
